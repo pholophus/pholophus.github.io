@@ -1,0 +1,76 @@
+// app global css in SCSS form
+.bg-landing {
+    background: #002323;
+}
+
+.bg-resume {
+    background: #AB5A10;
+}
+.bg-resume:hover{
+    background: #AB5A10;
+    opacity:0.8;
+}
+.resume{
+    font-family: 'Ephesis', cursive;
+    font-size:60px;
+    color:white;
+    opacity:0.8;
+    text-transform: capitalize;
+}
+.bg-project {
+    background: #14493D;
+}
+.project {
+    font-family: 'Ephesis', cursive;
+    font-size:60px;
+    color:white;
+    opacity:0.8;
+}
+.bg-about {
+    background: white;
+}
+.about {
+    font-family: 'Ephesis', cursive;
+    font-size:60px;
+    color:black;
+    margin-bottom:0px;
+    opacity:0.4;
+}
+.about-desc {
+    font-size:clamp(0.8rem, 1.7vw, 2rem);
+    font-family: 'Ephesis', cursive;
+    color:black;
+    opacity:0.4;
+    padding-top: 20px;
+}
+
+//resume page
+.bg-fullresume {
+    background: #4D0318;
+}
+
+.avatar {
+    height:80%; 
+    width:10%; 
+    margin-top:60px; 
+}
+
+.intro-card {
+    background: rgba(255,255,255,0.2);
+    width:100%;
+    height:110%;
+    padding-left:10%;
+}
+
+//project page 
+.bg-fullproject {
+    background: #041227;
+}
+
+.progress {
+    background: #74181E;
+    border-radius: 30px;
+    color:white;
+    padding:10px;
+    margin:1px
+}
