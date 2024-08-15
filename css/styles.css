@@ -1,9 +1,5 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
-*/
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11750,6 +11746,28 @@ html {
 .project-link {
   text-decoration: none;
 }
+
+.text-description {
+  font-size: 1rem; 
+  line-height: 1.5; 
+  margin: 0; 
+  padding: 0;
+  text-align: justify; 
+}
+
+.highlight {
+  background-color: #ab7c0c; /* Highlight color */
+  padding: 0.2em; /* Padding around the text for better visibility */
+  border-radius: 0.2em; /* Optional: rounded corners for the highlight */
+}
+
+
+@media (max-width: 600px) {
+  .text-description {
+    font-size: 0.9rem; 
+  }
+}
+
 
 @media (max-width: 576px) {
   .profile {
